@@ -30,8 +30,9 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 
 function removeElementFromBeginningOfArray(array) {
   array = array.slice(1);
-  return cookies;
+  return array;
 }
+
 
 
 
