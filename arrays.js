@@ -33,6 +33,3 @@ function removeElementFromBeginningOfArray(array) {
   return array;
 }
 
-
-
-
