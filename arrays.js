@@ -12,10 +12,12 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 
 function addElementToEndOfArray(array, element) {
   [...array, 'cookies'];
+  return array;
   }
 
 function destructivelyAddElementToEndOfArray(array, element) {
   array.push('foo');
+  return array;
 }
 
 function accessElementInArray() {
