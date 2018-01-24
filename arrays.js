@@ -21,3 +21,9 @@ function destructivelyAddElementToEndOfArray(array, element) {
   var myArray = ["apples", "bananas"];
   myArray.push("element");
 }
+
+function accessElementInArray() {
+  var brothers = ["Jack", "David", "Christian", "Ben", "Sam"];
+  return brothers[3];
+}
+
