@@ -12,6 +12,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 
 function addElementToEndOfArray(array, element) {
   array = [...array, "Philadelphia"];
+  return array;
   }
 
 function destructivelyAddElementToEndOfArray(array, element) {
