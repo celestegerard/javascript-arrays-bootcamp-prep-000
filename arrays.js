@@ -19,7 +19,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 
 function accessElementInArray() {
-  var brothers = ["Jack", "David", "Christian", "Ben", "Sam"];
+  var brothers = ["1", "2", "3", "4", "5"];
   return brothers[3];
 }
 
