@@ -27,3 +27,10 @@ function accessElementInArray() {
   return brothers[3];
 }
 
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  var myArray = ["happy", "blissful", "joyful"];
+  myArray.shift();
+  return myArray;
+}
+
+
