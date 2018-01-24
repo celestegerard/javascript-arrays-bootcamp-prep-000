@@ -17,8 +17,7 @@ function addElementToEndOfArray(array, element) {
   myArray = [...myArray, "element"];
 }
 
-function destructivelyAddElementToEndOfArray(array, element) {
-  var myArray = ["apples", "bananas"];
+function destructivelyAddElementToEndOfArray(array, "element") {
   myArray.push("element");
 }
 
